@@ -17,7 +17,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '20px',
+        height: '30px',
     },
     Logo: {
         height: '1.2rem',
