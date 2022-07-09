@@ -1,8 +1,8 @@
 import './card.css'
 
-const Card = ({dimsumDishPic, dimsumDishName}) => {
+const Card = ({dimsumDishPic, dimsumDishName, handleCardClick}) => {
     return (
-        <div style={container} className="cardContainer">
+        <div style={container} className="cardContainer" onClick={handleCardClick}>
             <img style={image} src={dimsumDishPic} alt=''/>
             <p>{dimsumDishName}</p>
         </div>
