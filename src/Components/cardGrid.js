@@ -12,10 +12,11 @@ const CardGrid = () => {
 }
 
 const grid = {
+    maxWidth: '780px',
     display: 'grid',
-    gridTemplateColumns: 'repeat(5, 1fr)',
-    ColumnGap: '2rem',
-    RowGap: '1rem',
+    gridTemplateColumns: 'repeat(5, 1fr)', 
+    columnGap: '15px',
+    rowGap: '15px',
 }
 
 export default CardGrid
