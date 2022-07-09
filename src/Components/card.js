@@ -1,6 +1,8 @@
+import './card.css'
+
 const Card = ({dimsumDishPic, dimsumDishName}) => {
     return (
-        <div style={container}>
+        <div style={container} className="cardContainer">
             <img style={image} src={dimsumDishPic} alt=''/>
             <p>{dimsumDishName}</p>
         </div>
