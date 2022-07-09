@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.bbeec7eb.css",
+    "main.js": "/memory-game/static/js/main.fd9e09ed.js",
+    "static/media/pork-dumplings.png": "/memory-game/static/media/pork-dumplings.cdb780d3d90ac4ba89e6.png",
+    "static/media/steamed-pork-buns.jpeg": "/memory-game/static/media/steamed-pork-buns.28ce8d837d8e4e9967cb.jpeg",
+    "static/media/beef-tripe.jpeg": "/memory-game/static/media/beef-tripe.f50eb8e0fbf921fcecde.jpeg",
+    "static/media/shrimp-dumplings.jpg": "/memory-game/static/media/shrimp-dumplings.3b9146006d1946ea4bd4.jpg",
+    "static/media/fried-spring-rolls.jpeg": "/memory-game/static/media/fried-spring-rolls.104ecc4908f422157437.jpeg",
+    "static/media/baked-pork-buns.jpeg": "/memory-game/static/media/baked-pork-buns.3d94906f87f9ab9f3811.jpeg",
+    "static/media/sesame-prawn-toasts.jpeg": "/memory-game/static/media/sesame-prawn-toasts.98e1c8d3a15c330960f5.jpeg",
+    "static/media/steamed-pork-ribs.jpeg": "/memory-game/static/media/steamed-pork-ribs.212c9a0e399f1b35f432.jpeg",
+    "static/media/potstickers.jpeg": "/memory-game/static/media/potstickers.95db5884f07eff2df0bd.jpeg",
+    "static/media/dim-sum-header.jpg": "/memory-game/static/media/dim-sum-header.e55282775689f8472ea4.jpg",
+    "static/media/scallion-pancakes.jpeg": "/memory-game/static/media/scallion-pancakes.7bc6752b9074bae8df02.jpeg",
+    "static/media/chicken-feet.jpeg": "/memory-game/static/media/chicken-feet.1ef26e6f3d10801ccff5.jpeg",
+    "static/media/soup-dumplings.jpeg": "/memory-game/static/media/soup-dumplings.2421569fd8d7d6c6877c.jpeg",
+    "static/media/plain-rice-noodles.jpeg": "/memory-game/static/media/plain-rice-noodles.79939329e27a79e764c0.jpeg",
+    "static/media/turnip-cakes.jpeg": "/memory-game/static/media/turnip-cakes.4a0d60bfa286111e91ec.jpeg",
+    "static/media/sponge-cake.jpeg": "/memory-game/static/media/sponge-cake.a9deecd877ca3144d419.jpeg",
+    "static/media/sticky-rice-lotus-leaf.jpeg": "/memory-game/static/media/sticky-rice-lotus-leaf.0964ff7c4dc0e7521210.jpeg",
+    "static/media/egg-tarts.jpeg": "/memory-game/static/media/egg-tarts.89a0213594dd003b6219.jpeg",
+    "static/media/fried-sesame-balls.jpeg": "/memory-game/static/media/fried-sesame-balls.f276ad1b97e1691e38ed.jpeg",
+    "index.html": "/memory-game/index.html",
+    "main.bbeec7eb.css.map": "/memory-game/static/css/main.bbeec7eb.css.map",
+    "main.fd9e09ed.js.map": "/memory-game/static/js/main.fd9e09ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbeec7eb.css",
+    "static/js/main.fd9e09ed.js"
+  ]
+}
