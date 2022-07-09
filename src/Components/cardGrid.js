@@ -1,20 +1,17 @@
 import { dimsumDishes } from './cardInfo'
 import Card from './card'
 
-const CardGrid = () => {
+const CardGrid = ({handleCardClick}) => {
     let dimsumDishesArray = dimsumDishes.map((dish, index) => (
-        <Card key={index} dimsumDishName={dish.name} dimsumDishPic={dish.source} handleCardClick={shuffleArray(dimsumDishes)}/>
+        <Card key={index} dimsumDishName={dish.name} dimsumDishPic={dish.source} handleCardClick={handleCardClick}/>
     ))
 
     return(
-        <div style={grid}>{dimsumDishesArray}</div>
-        
+        <div style={grid} onClick={()=>shuffleArray(dimsumDishes)}>{dimsumDishesArray}</div>
     )
 }
 
-function shuffleArray(array, dish) {
-    console.log(array)
-    console.log(dish)
+function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = array[i];
