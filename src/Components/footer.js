@@ -12,12 +12,12 @@ const Footer = () => {
 const styles = {
     footer: {
         position: 'absolute',
-        left: '0',
+        width: '100%',
         bottom: '0',
-        right: '0',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        height: '20px',
     },
     Logo: {
         height: '1.2rem',

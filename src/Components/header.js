@@ -29,7 +29,7 @@ const Logo = {
 }
 
 const currentScoreBoard = {
-    borderRadius: '10px',
+    borderRadius: '20px',
     backgroundColor: '#FBA1A1',
     padding: '0.5rem',
     height: '40px',
@@ -37,7 +37,7 @@ const currentScoreBoard = {
 }
 
 const highScoreBoard = {
-    borderRadius: '10px',
+    borderRadius: '20px',
     backgroundColor: '#B8F1B0',
     padding: '0.5rem',
     height: '40px',
