@@ -1,8 +1,7 @@
 import CardGrid from './cardGrid'
 import React, { useState } from 'react';
 
-const Main = () => {
-    const [dimsumDishes, setDimsumDishes] = useState([])
+const Main = ({getScores}) => {
     const [currentScore, setCurrentScore] = useState(0);
     const [highScore, setHighScore] = useState(0);
     const [cardsClicked, setCardsClicked] = useState([]);
@@ -35,7 +34,7 @@ const Main = () => {
     }
 
     return(
-        <div style={container}>
+        <div style={container} sendScores={getScores(currentScore, highScore)}>
             <CardGrid handleCardClick={getDish}/>
         </div>
     )
